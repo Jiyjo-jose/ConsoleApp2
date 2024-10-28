@@ -28,6 +28,7 @@ class MainProgram
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("hey github its jiyjo ");
         var john = new Person();
         john.FirstName = "john";
         john.LastName = "smith";
@@ -351,6 +352,9 @@ c:\folder2\file2";
                 .Insert(0, new string('-', 10));
         Console.WriteLine(builder);
         Console.WriteLine("first char : " + builder[0]);
+
+
+        /////////////////second commit 
 
     }
 
